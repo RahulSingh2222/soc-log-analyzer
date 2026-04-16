@@ -1,11 +1,9 @@
-# soc-log-analyzer
-
 # SOC Log Analyzer
 
-A Python-based log analysis tool with a GUI that mimics basic SIEM functionality.
+A Python-based log analysis tool with a GUI that mimics basic SIEM functionality. It allows users to upload log files, analyze login activity, and detect potential security threats.
 
 ## Features
-- Parse custom logs, Linux auth logs, and Windows exported logs
+- Parse custom logs, Linux auth logs, and Windows exported text logs
 - Detect failed and successful login attempts
 - Identify brute-force attacks
 - Detect successful login after repeated failures
@@ -18,6 +16,11 @@ A Python-based log analysis tool with a GUI that mimics basic SIEM functionality
 - Tkinter (GUI)
 - Regex
 - Collections
+
+## Supported Logs
+- Custom structured logs (.log / .txt)
+- Linux authentication logs
+- Windows exported text logs
 
 ## How to Run
 ```bash
