@@ -25,3 +25,9 @@ A Python-based log analysis tool with a GUI that mimics basic SIEM functionality
 ## How to Run
 ```bash
 python analyzer.py
+
+## Project Highlights
+- Built a SIEM-like log analysis tool from scratch
+- Implemented rule-based threat detection (brute-force, anomaly detection)
+- Added support for multiple log formats (custom, Linux, Windows)
+- Developed a GUI for real-time log analysis and reporting
